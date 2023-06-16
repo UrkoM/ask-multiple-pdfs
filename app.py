@@ -68,8 +68,8 @@ def handle_userinput(user_question):
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Chat para pdfs multiples",
-                       page_icon=":books:")
+    st.set_page_config(page_title="DatakaPDF",
+                       )
     st.write(css, unsafe_allow_html=True)
 
     if "conversation" not in st.session_state:
