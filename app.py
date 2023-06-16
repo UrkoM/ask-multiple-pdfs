@@ -77,7 +77,7 @@ def main():
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    st.header("Chat para pdfs multiples :books:")
+    st.header("DatakaPDF")
     user_question = st.text_input("Pregunta algo sobre tus documentos:")
     if user_question:
         handle_userinput(user_question)
